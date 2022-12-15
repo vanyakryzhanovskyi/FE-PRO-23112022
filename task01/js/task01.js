@@ -43,13 +43,13 @@
 
 // ---------------------------true/false text -------------------
 
-// let ask = prompt ("Are you from uk or ru?");
-// let uk = "uk";
-// let ru = " ";
-// let brother = ask == uk;
-// let terorist = ask == ru;
-// console.log ('uk',brother);
-// console.log ('ru',terorist);
+let ask = prompt ("Are you from uk or ru?");
+let uk = "uk";
+let ru = " ";
+let brother = ask == uk;
+let terorist = ask == ru;
+console.log ('uk',brother);
+console.log ('ru',terorist);
 
 // -------------------------numeric true/false------------
 
