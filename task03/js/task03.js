@@ -105,18 +105,18 @@
 // console.log(sumArray(arrRandomNumbers));
 
 //Створити функцію яка отримує в аргумент старт значення і фініш значення ( старт менше фініша) також отрмує массив задовільної довжини. Функція повина повертати массив в якому вирізанні значення з старт індекса по фініш
-let arrRandomNumbers = [1, 3, 5, 4, 6, 9, 8, 20, 31, 33, 10];
-function SliceArr (start,finish,Arr){
-    if(start < finish && Array.isArray(Arr) && Arr.length>=finish){
-      Arr =  Arr.slice(start,finish);
-    }
-    else{
-        alert("Start must bee < than finish, finish <= than lenght Arr")
-       return ;
-    }
-    return Arr;
+// let arrRandomNumbers = [1, 3, 5, 4, 6, 9, 8, 20, 31, 33, 10];
+// function SliceArr (start,finish,Arr){
+//     if(start < finish && Array.isArray(Arr) && Arr.length>=finish){
+//       Arr =  Arr.slice(start,finish);
+//     }
+//     else{
+//         alert("Start must bee < than finish, finish <= than lenght Arr")
+//        return ;
+//     }
+//     return Arr;
     
     
-}
-console.log(SliceArr(0,10,arrRandomNumbers));
+// }
+// console.log(SliceArr(0,10,arrRandomNumbers));
 
