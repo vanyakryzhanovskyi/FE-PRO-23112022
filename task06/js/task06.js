@@ -56,7 +56,7 @@ function birthday(){
 
 
 function ageCounter(cbFn){
-    let dateToday=new Date()
+    let dateToday=new Date();
     let dayBirth=parseInt(prompt('Please enter your day of birth'));
     let monthBirth=parseInt(prompt("Please enter your month of birth"));
     let yearBirth=parseInt(prompt("Please enter your year of birth"));
